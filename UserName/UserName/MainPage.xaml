@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UserName"
+             x:Class="UserName.MainPage">
+
+    <StackLayout BackgroundColor="Aqua">
+        <BoxView
+            BackgroundColor="Blue"
+            HeightRequest="100">
+            
+            </BoxView>
+
+        <Button BackgroundColor="Blue"
+                TextColor="Red"
+                HorizontalOptions="Center"
+                BorderRadius="50"
+                WidthRequest="100"
+                HeightRequest="100"></Button>
+       
+        <Label Text="Nombre de Usuario"
+               TextColor="Blue">
+        </Label>
+        <Entry Placeholder="Ingrese Usuario"
+               BackgroundColor="MediumBlue">
+        </Entry>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Edad"></Label>
+            <Entry   Placeholder="Ingrese Su Edad"
+                     HorizontalOptions="FillAndExpand"
+                     WidthRequest="100"></Entry>
+
+        </StackLayout>
+
+
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Intereses"></Label>
+            <Entry Placeholder="Ingrese sus Intereses"
+                   HorizontalOptions="FillAndExpand"
+                    WidthRequest="100"></Entry>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Aprende"></Label>
+            <Entry Placeholder="Xamarin"
+                   HorizontalOptions="FillAndExpand"
+                   WidthRequest="100">
+                 
+            </Entry>
+
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Otros" ></Label>
+            <Entry Placeholder="Xamarin"
+                   HorizontalOptions="FillAndExpand"
+                   WidthRequest="100"
+                  
+                   ></Entry>
+
+        </StackLayout>
+
+
+
+
+
+
+    </StackLayout>
+
+</ContentPage>

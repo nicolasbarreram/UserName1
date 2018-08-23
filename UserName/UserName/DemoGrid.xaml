@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UserName.DemoGrid">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="0"
+              RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="200"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <BoxView BackgroundColor="Yellow" 
+                     Grid.Row="0"
+                     Grid.Column="0"/>
+            <BoxView BackgroundColor="Turquoise" 
+                     Grid.Row="0"
+                     Grid.Column="1"/>
+            <BoxView BackgroundColor="Tomato" 
+                     Grid.Row="0"
+                     Grid.Column="2"/>
+            <BoxView BackgroundColor="Bisque"
+                     Grid.Row="3"
+                     Grid.ColumnSpan="3"/>
+            <BoxView BackgroundColor="Blue"
+                     Grid.Row="1"
+                     Grid.Column="0"/>
+            <BoxView BackgroundColor="Black"
+                     Grid.Row="1"
+                     Grid.Column="1"/>
+            <BoxView BackgroundColor="BurlyWood"
+                     Grid.Row="1"
+                     Grid.Column="2"/>
+            <BoxView BackgroundColor="Red"
+                     Grid.Row="2"
+                     Grid.Column="0"/>
+            <BoxView BackgroundColor="Plum"
+                     Grid.Row="2"
+                     Grid.Column="1"/>
+            <BoxView BackgroundColor="MediumOrchid"
+                     Grid.Row="2"
+                     Grid.Column="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
